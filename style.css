@@ -1,0 +1,252 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(11, 11, 48);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(31, 31, 130);
+  height: 120px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  font-size: 25;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 30;
+  font-size: 35px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(35, 210, 234);
+}
+nav ul li a:hover {
+  color: azure;
+  font-size: 50px;
+}
+
+.left {
+  font-size: 60px;
+}
+.rigt {
+  font-size: 500px;
+}
+header {
+  margin: -9;
+}
+.first {
+  margin: 170;
+  display: flex;
+  justify-content: space-around;
+  font-size: 50;
+}
+.first div > {
+  width: 30%;
+
+  background-color: red;
+}
+.lefthand {
+  margin: 150 0;
+  position: relative;
+  top: 80px;
+  animation: slideright 1s ease forwards;
+  animation-delay: 1s;
+}
+
+.righthand img {
+  display: block;
+  width: 500;
+  margin: 210 0;
+  border-radius: 100%;
+}
+#element {
+  color: rgb(103, 103, 233);
+  font-size: 60px;
+}
+hr {
+  border: 0;
+  background-color: #6b6bed;
+  height: 1px;
+  margin: 10 84;
+}
+.second h1 {
+  position: relative;
+  left: 90;
+  top: 13;
+  font-size: 65;
+}
+#me pre {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+.myname {
+  font-size: 70px;
+}
+.about {
+  font-size: 50px;
+  margin: 160;
+}
+.skills img {
+  background-color: white;
+  width: 450;
+  margin: 276 500;
+}
+.linkdin img {
+  width: 75;
+  margin: 72 0;
+  background-color: #a2a3b2;
+  border-radius: 15%;
+}
+.insta img {
+  width: 75;
+  background-color: #a2a3b2;
+  border-radius: 15%;
+  position: relative;
+  left: 78px;
+  bottom: 70;
+}
+.x img {
+  width: 75;
+  background-color: #a2a3b2;
+  position: relative;
+  left: 152;
+  bottom: 70;
+  border-radius: 15%;
+}
+.git img {
+  width: 75;
+  background-color: #a2a3b2;
+  border-radius: 15%;
+  position: relative;
+  left: 230;
+  bottom: 75;
+}
+.bottom-bar {
+  background-color: rgb(31, 31, 130);
+  color: rgb(35, 210, 234);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  margin-top: 80px;
+  border-top: 1px solid #6b6bed;
+}
+
+.bottom-bar .bottom-left {
+  font-size: 24px;
+}
+
+.bottom-bar .bottom-right {
+  display: flex;
+  gap: 28px;
+}
+
+.bottom-bar .bottom-right a {
+  text-decoration: none;
+  color: rgb(35, 210, 234);
+  font-size: 22px;
+}
+
+.bottom-bar .bottom-right a:hover {
+  color: azure;
+}
+.skills h2 {
+  font-size: 65;
+  margin: 60 -23;
+}
+.skills {
+  max-width: 600px;
+  margin: 35 110;
+}
+
+.skills h2 {
+  margin-bottom: 20px;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  font-weight: bold;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.progress {
+  background: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.progress-fill {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  background: linear-gradient(90deg, #7c5cff, #9b7bff);
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding-right: 8px;
+  border-radius: 10px;
+  width: var(--w, 0%);
+  transition: width 1s ease-in-out;
+}
+.set {
+  font-size: 44;
+}
+.contact {
+  margin: 200 0;
+}
+.contact img {
+  width: 60;
+  margin: -177 84;
+  margin-right: 30;
+}
+.contact h1 {
+  left: 90;
+  top: -150;
+}
+.contact span a {
+  font-size: 33;
+  position: relative;
+  bottom: 138;
+  color: #969696;
+  text-decoration: none;
+}
+#git img {
+  position: relative;
+  top: 127;
+}
+#git a {
+  font-size: 33;
+  color: #969696;
+  font-style: none;
+  position: relative;
+  top: -6px;
+}
+#gmail img {
+  background-color: beige;
+  width: 50;
+}
+#linkdin img {
+  position: relative;
+  top: -11px;
+  background-color: beige;
+}
+#linkdin a {
+  position: relative;
+  top: -145;
+}
